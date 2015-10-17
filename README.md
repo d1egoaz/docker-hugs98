@@ -3,7 +3,7 @@
 # How to run
 Map your current directory to /code
 ```
-docker run -i -t --rm -v ~/dev/FP101x:/code d1egoaz/hugs98
+docker run -i -t --rm -v "$PWD":/code d1egoaz/hugs98 [args...]
 ```
 
 Inside hugs load the file (test.hs must be in current directory)
