@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -i -t --rm -v "$PWD":/code d1egoaz/hugs98 "$@"
+docker run -i -t --rm -v "$PWD":/code d1egoaz/docker-hugs98 "$@"
